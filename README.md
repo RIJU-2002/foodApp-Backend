@@ -1,1 +1,1 @@
-This is the backedn of the project foodApp.I have used Spring Boot
+This is the backend of the project foodApp.I have used Spring Boot
