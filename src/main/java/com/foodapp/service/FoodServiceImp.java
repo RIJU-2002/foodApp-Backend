@@ -123,4 +123,10 @@ public class FoodServiceImp implements FoodService {
         return foodRepository.save(food);
     }
 
+    @Override
+    public List<Food> allFoods(){
+        // TODO Auto-generated method stub
+        return foodRepository.allFood();
+    }
+
 }
