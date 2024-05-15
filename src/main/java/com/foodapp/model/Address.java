@@ -2,6 +2,7 @@ package com.foodapp.model;
 
 import org.springframework.lang.Nullable;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,19 +15,19 @@ public class Address {
     @Nullable
     private Long id;
 
-    @Nullable
+    @Column(nullable = true)
     private String streetAddress;
 
-    @Nullable
+    @Column(nullable = true)
     private String city;
 
-    @Nullable
+    @Column(nullable = true)
     private String stateProvinces;
 
-    @Nullable
+    @Column(nullable = true)
     private Long postalCode;
 
-    @Nullable
+    @Column(nullable = true)
     private String country;
 
 }

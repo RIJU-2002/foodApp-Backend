@@ -2,6 +2,7 @@ package com.foodapp.dto;
 
 import java.util.List;
 
+import io.micrometer.common.lang.Nullable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;
 import lombok.Data;
@@ -16,4 +17,6 @@ public class ResturantDto {
 
     private String description;
     private Long id;
+    @Column(nullable = true) 
+    private boolean open;
 }

@@ -111,6 +111,7 @@ public class ResturantServiceImp implements ResturantService {
         dto.setImages(resturant.getImages());
         dto.setTitle(resturant.getName());
         dto.setId(resturantId);
+        dto.setOpen(resturant.isOpen());
 
         // if(user.getFavourites().contains(dto)){
         //     user.getFavourites().remove(dto);
